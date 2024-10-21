@@ -1,0 +1,22 @@
+{
+  "name": "pruebax",
+  "version": "1.0.0",
+  "description": "Limitaciones de la API version básico:",
+  "main": "desafio.js",
+  "type": "module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start_by_username": "node endpoint_by_username.js",
+    "start_search_all": "node endpoint_search_all.js",
+    "start_create_post": "node endpoint_create_post.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "got": "^14.4.3",
+    "moment-timezone": "^0.5.46",
+    "oauth-1.0a": "^2.2.6",
+    "twitter-api-v2": "^1.18.0"
+  }
+}
